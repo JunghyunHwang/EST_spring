@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="xxx" class="com.spring.Person">
+		<constructor-arg name="name" value="Satoru"></constructor-arg>
+	</bean>
+	
+	<bean id="xxx2" class="com.spring.Person">
+		<constructor-arg name="name" value="Suguru"></constructor-arg>
+		<constructor-arg name="age" value="10"></constructor-arg>
+	</bean>
+	
+	<bean id="xxx3" class="com.spring.Person">
+		<constructor-arg name="xx" value="Yuji"></constructor-arg>
+		<constructor-arg name="yy" value="18"></constructor-arg>
+	</bean>
+	
+</beans>
